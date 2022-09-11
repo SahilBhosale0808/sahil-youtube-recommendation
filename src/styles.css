@@ -2,6 +2,13 @@
   font-family: sans-serif;
   text-align: center;
 }
+h1 {
+  color: #fff;
+  font-weight: bolder;
+}
+p {
+  color: #fff;
+}
 button {
   padding: 12px;
   margin: 10px;
@@ -10,6 +17,7 @@ button {
   border-radius: 7px;
   border: none;
   cursor: pointer;
+  color: #fff;
 }
 hr {
   width: 70%;
@@ -33,4 +41,18 @@ ul {
 }
 li div {
   padding: 3px;
+}
+
+body {
+  background-color: black;
+}
+
+.name {
+  color: #fff;
+  font-weight: bold;
+}
+
+.count {
+  color: #fff;
+  font-weight: bold;
 }

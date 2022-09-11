@@ -53,8 +53,8 @@ export default function App() {
           {channelDictionary[chooseGenre].map((genre) => {
             return (
               <li>
-                <div>{genre.name}</div>
-                <div>{genre.subscribers}</div>
+                <div className="name">{genre.name}</div>
+                <div className="count">{genre.subscribers}</div>
               </li>
             );
           })}
